@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgba(137, 43, 226, 0.651);
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.todo-box {
+  background: white;
+  padding: 50px;
+  border-radius: 16px;
+  width: 50%;
+}
+form {
+  width: 100%;
+  padding: 15px;
+  position: relative;
+}
+
+input.input-box {
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  border: none;
+  outline: none;
+  font-size: 20px;
+  background-color: #ccc;
+}
+
+button.add-btn {
+  background: red;
+  color: white;
+  font-size: 16px;
+  padding: 22px 30px;
+  border: none;
+  outline: none;
+  position: absolute;
+  right: 14px;
+}
+
+.list-show {
+  padding-left: 20px;
+}
+
+li {
+  font-size: 20px;
+  font-weight: 600;
+  margin-left: 20px;
+  margin-bottom: 5px;
+}
+
+span {
+  position: absolute;
+  right: 0;
+  background: red;
+  padding: 0px 10px;
+  color: white;
+}
+
+ol#list-container {
+  position: relative;
+}
